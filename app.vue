@@ -66,7 +66,7 @@
     <!-- Announcement Banner -->
     <div class="flex justify-center">
       <a class="inline-flex items-center gap-x-2 bg-white border border-gray-200 text-sm text-gray-800 p-1 ps-3 rounded-full transition hover:border-gray-300 dark:bg-neutral-800 dark:border-neutral-700 dark:hover:border-neutral-600 dark:text-neutral-200" href="#">
-        PRO release - Join to waitlist
+        创新为基，无限可能
         <span class="py-1.5 px-2.5 inline-flex justify-center items-center gap-x-2 rounded-full bg-gray-200 font-semibold text-sm text-gray-600 dark:bg-neutral-700 dark:text-neutral-400">
           <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
         </span>
@@ -77,8 +77,8 @@
     <!-- Title -->
     <div class="mt-5 max-w-2xl text-center mx-auto">
       <h1 class="block font-bold text-gray-800 text-4xl md:text-5xl lg:text-6xl dark:text-neutral-200">
-        Let's Build
-        <span class="bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent">Together</span>
+        共同构建
+        <span class="bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent">新一代IDC产品</span>
       </h1>
     </div>
     <!-- End Title -->
