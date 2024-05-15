@@ -11,5 +11,9 @@ export default defineNuxtConfig({
     injectPosition: 'first',
     viewer: true,
   },
-  plugins: ["~/plugins/preline.client.ts"]
+  plugins: ["~/plugins/preline.client.ts"],
+  router: {
+    base: '/',
+    options: {}
+  }
 })
