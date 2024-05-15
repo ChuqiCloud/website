@@ -77,6 +77,77 @@
               Hire us
             </button>
 
+            <div class="hs-dropdown">
+              <button
+                type="button"
+                class="hs-dropdown-toggle hs-dark-mode group flex items-center text-gray-600 hover:text-blue-600 font-medium dark:text-neutral-400 dark:hover:text-neutral-500"
+              >
+                <svg
+                  class="hs-dark-mode-active:hidden block size-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+                </svg>
+                <svg
+                  class="hs-dark-mode-active:block hidden size-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="12" cy="12" r="4"></circle>
+                  <path d="M12 2v2"></path>
+                  <path d="M12 20v2"></path>
+                  <path d="m4.93 4.93 1.41 1.41"></path>
+                  <path d="m17.66 17.66 1.41 1.41"></path>
+                  <path d="M2 12h2"></path>
+                  <path d="M20 12h2"></path>
+                  <path d="m6.34 17.66-1.41 1.41"></path>
+                  <path d="m19.07 4.93-1.41 1.41"></path>
+                </svg>
+              </button>
+
+              <div
+                id="selectThemeDropdown"
+                class="hs-dropdown-menu hs-dropdown-open:opacity-100 mt-2 hidden z-10 transition-[margin,opacity] opacity-0 duration-300 mb-2 origin-bottom-left bg-white shadow-md rounded-lg p-2 space-y-1 dark:bg-neutral-800 dark:border dark:border-neutral-700 dark:divide-neutral-700"
+              >
+                <button
+                  type="button"
+                  class="w-full flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-300"
+                  data-hs-theme-click-value="default"
+                >
+                  Default (Light)
+                </button>
+                <button
+                  type="button"
+                  class="w-full flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-300"
+                  data-hs-theme-click-value="dark"
+                >
+                  Dark
+                </button>
+                <button
+                  type="button"
+                  class="w-full flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-300"
+                  data-hs-theme-click-value="auto"
+                >
+                  Auto (System)
+                </button>
+              </div>
+            </div>
+
             <div class="md:hidden">
               <button
                 type="button"
@@ -525,6 +596,172 @@
         </div>
       </div>
       <!-- End Icon Blocks -->
+
+      <!-- Features -->
+      <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+        <div class="aspect-w-16 aspect-h-7">
+          <img
+            class="w-full object-cover rounded-xl"
+            src="https://images.unsplash.com/photo-1624571409412-1f253e1ecc89?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+            alt="Image Description"
+          />
+        </div>
+
+        <!-- Grid -->
+        <div class="mt-5 lg:mt-16 grid lg:grid-cols-3 gap-8 lg:gap-12">
+          <div class="lg:col-span-1">
+            <h2
+              class="font-bold text-2xl md:text-3xl text-gray-800 dark:text-neutral-200"
+            >
+              We tackle the challenges start-ups face
+            </h2>
+            <p class="mt-2 md:mt-4 text-gray-500 dark:text-neutral-500">
+              Besides working with start-up enterprises as a partner for
+              digitalization, we have built enterprise products for common pain
+              points that we have encountered in various products and projects.
+            </p>
+          </div>
+          <!-- End Col -->
+
+          <div class="lg:col-span-2">
+            <div class="grid sm:grid-cols-2 gap-8 md:gap-12">
+              <!-- Icon Block -->
+              <div class="flex gap-x-5">
+                <svg
+                  class="flex-shrink-0 mt-1 size-6 text-blue-600 dark:text-blue-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect width="18" height="10" x="3" y="11" rx="2" />
+                  <circle cx="12" cy="5" r="2" />
+                  <path d="M12 7v4" />
+                  <line x1="8" x2="8" y1="16" y2="16" />
+                  <line x1="16" x2="16" y1="16" y2="16" />
+                </svg>
+                <div class="grow">
+                  <h3
+                    class="text-lg font-semibold text-gray-800 dark:text-white"
+                  >
+                    Creative minds
+                  </h3>
+                  <p class="mt-1 text-gray-600 dark:text-neutral-400">
+                    We choose our teams carefully. Our people are the secret to
+                    great work.
+                  </p>
+                </div>
+              </div>
+              <!-- End Icon Block -->
+
+              <!-- Icon Block -->
+              <div class="flex gap-x-5">
+                <svg
+                  class="flex-shrink-0 mt-1 size-6 text-blue-600 dark:text-blue-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M7 10v12" />
+                  <path
+                    d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2h0a3.13 3.13 0 0 1 3 3.88Z"
+                  />
+                </svg>
+                <div class="grow">
+                  <h3
+                    class="text-lg font-semibold text-gray-800 dark:text-white"
+                  >
+                    Simple and affordable
+                  </h3>
+                  <p class="mt-1 text-gray-600 dark:text-neutral-400">
+                    From boarding passes to movie tickets, there's pretty much
+                    nothing you can't store with Preline.
+                  </p>
+                </div>
+              </div>
+              <!-- End Icon Block -->
+
+              <!-- Icon Block -->
+              <div class="flex gap-x-5">
+                <svg
+                  class="flex-shrink-0 mt-1 size-6 text-blue-600 dark:text-blue-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+                </svg>
+                <div class="grow">
+                  <h3
+                    class="text-lg font-semibold text-gray-800 dark:text-white"
+                  >
+                    Industry-leading documentation
+                  </h3>
+                  <p class="mt-1 text-gray-600 dark:text-neutral-400">
+                    Our documentation and extensive Client libraries contain
+                    everything a business needs to build a custom integration.
+                  </p>
+                </div>
+              </div>
+              <!-- End Icon Block -->
+
+              <!-- Icon Block -->
+              <div class="flex gap-x-5">
+                <svg
+                  class="flex-shrink-0 mt-1 size-6 text-blue-600 dark:text-blue-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                </svg>
+                <div class="grow">
+                  <h3
+                    class="text-lg font-semibold text-gray-800 dark:text-white"
+                  >
+                    Designing for people
+                  </h3>
+                  <p class="mt-1 text-gray-600 dark:text-neutral-400">
+                    We actively pursue the right balance between functionality
+                    and aesthetics, creating delightful experiences.
+                  </p>
+                </div>
+              </div>
+              <!-- End Icon Block -->
+            </div>
+          </div>
+          <!-- End Col -->
+        </div>
+        <!-- End Grid -->
+      </div>
+      <!-- End Features -->
 
       <!-- Card Blog -->
       <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
