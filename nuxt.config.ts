@@ -13,7 +13,6 @@ export default defineNuxtConfig({
   },
   plugins: ["~/plugins/preline.client.ts"],
   router: {
-    base: '/',
-    options: {}
-  }
+    options: { linkExactActiveClass: 'active' },
+},
 })
