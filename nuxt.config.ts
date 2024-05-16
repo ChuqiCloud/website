@@ -11,6 +11,9 @@ export default defineNuxtConfig({
     injectPosition: 'first',
     viewer: true,
   },
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in' }
+  },
   plugins: ["~/plugins/preline.client.ts"],
   router: {
     options: { linkExactActiveClass: 'active' },
