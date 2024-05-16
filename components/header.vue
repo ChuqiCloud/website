@@ -89,6 +89,7 @@
               >
                 <button
                   type="button"
+                  @click="open = false"
                   class="w-full flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-300"
                   data-hs-theme-click-value="default"
                 >
@@ -96,6 +97,7 @@
                 </button>
                 <button
                   type="button"
+                  @click="open = false"
                   class="w-full flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-300"
                   data-hs-theme-click-value="dark"
                 >
@@ -103,6 +105,7 @@
                 </button>
                 <button
                   type="button"
+                  @click="open = false"
                   class="w-full flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-300"
                   data-hs-theme-click-value="auto"
                 >
