@@ -11,8 +11,8 @@
             <!-- Logo -->
             <a
               class="flex-none rounded-xl text-xl inline-block font-semibold focus:outline-none focus:opacity-80"
-              href="../templates/creative-agency/index.html"
-              aria-label="Preline"
+              href="/"
+              aria-label="Acmecloud"
             >
               <img
                 class="h-8"
@@ -29,15 +29,17 @@
           >
             <button
               type="button"
+              onclick="window.location.href='/login'"
               class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl border border-gray-200 text-black hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:border-neutral-700 dark:hover:bg-white/10 dark:text-white dark:hover:text-white"
             >
               Sign in
             </button>
             <button
               type="button"
+              onclick="window.location.href='/register'"
               class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl border border-transparent bg-lime-400 text-black hover:bg-lime-500 transition disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-lime-500"
             >
-              Hire us
+              Sign up
             </button>
 
             <div class="hs-dropdown">
@@ -169,7 +171,7 @@
               <div>
                 <a
                   class="relative inline-block text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-lime-400 dark:text-white"
-                  href="#"
+                  href="/"
                   aria-current="page"
                   >首页</a
                 >
@@ -177,7 +179,7 @@
               <div>
                 <a
                   class="inline-block text-black hover:text-gray-600 dark:text-white dark:hover:text-neutral-300"
-                  href="#"
+                  href="/product"
                   >产品</a
                 >
               </div>
@@ -191,14 +193,14 @@
               <div>
                 <a
                   class="inline-block text-black hover:text-gray-600 dark:text-white dark:hover:text-neutral-300"
-                  href="#"
+                  href="/contact"
                   >支持</a
                 >
               </div>
               <div>
                 <a
                   class="inline-block text-black hover:text-gray-600 dark:text-white dark:hover:text-neutral-300"
-                  href="#"
+                  href="/about"
                   >关于</a
                 >
               </div>
@@ -207,4 +209,10 @@
           <!-- End Collapse -->
         </nav>
       </header>
+      <!-- Gradients -->
+      <div aria-hidden="true" class="flex -z-[1] absolute -top-48 start-0">
+        <div class="bg-purple-200 opacity-30 blur-3xl w-[1036px] h-[600px] dark:bg-purple-900 dark:opacity-20"></div>
+        <div class="bg-gray-200 opacity-90 blur-3xl w-[577px] h-[300px] transform translate-y-32 dark:bg-neutral-800/60"></div>
+      </div>
+      <!-- End Gradients -->
   </template>
